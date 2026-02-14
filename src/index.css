@@ -1,0 +1,50 @@
+/* Anticva — заголовки и кнопки (локальный файл) */
+@font-face {
+  font-family: 'Anticva';
+  src: url('/fonts/Anticva-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-heading: 'Anticva', Georgia, serif;
+  --font-body: 'Raleway', system-ui, sans-serif;
+  font-family: var(--font-body);
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Заголовки и кнопки — Anticva */
+h1, h2, h3, h4, h5, h6,
+button,
+a.back,
+[class*="button"],
+[class*="Button"],
+[class*="iconBtn"],
+[class*="headerTitle"],
+[class*="title"]:not([class*="subtitle"]) {
+  font-family: var(--font-heading);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

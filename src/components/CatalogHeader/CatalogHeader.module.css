@@ -1,0 +1,375 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 14px 12px;
+}
+
+.headerTop {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 8px;
+}
+
+.headerIcons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 160px;
+}
+
+.iconBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  color: #5D1E00;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.iconBtn:hover {
+  background: rgba(93, 30, 0, 0.15);
+}
+
+.iconBtn svg {
+  font-size: 2.5rem;
+}
+
+.headerTitleRow {
+  position: absolute;
+  top: 7%;
+  left: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 0.5rem;
+}
+
+.headerArrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  flex-shrink: 0;
+  background: rgb(255, 255, 255, 20%);
+  border: solid #5D1E00 1px;
+  color: #5D1E00;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: background 0.2s;
+}
+
+.headerArrow:hover {
+  background: rgba(93, 30, 0, 0.15);
+}
+
+.headerArrow svg {
+  font-size: 3rem;
+}
+
+.headerTitle {
+  margin: 0;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  color: #5D1E00;
+  max-width: 1400px;
+}
+
+/* Кнопка и dropdown фильтров (только на странице каталога подгруппы) */
+.headerDropdownWrap {
+  position: relative;
+}
+
+.headerBtnFilters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  color: #5D1E00;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.headerBtnFilters:hover {
+  background: rgba(93, 30, 0, 0.15);
+}
+
+.headerBtnFilters svg {
+  font-size: 2.5rem;
+}
+
+.headerDropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 8px;
+  min-width: 420px;
+  max-width: 500px;
+  max-height: 80vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #FBF7F3;
+  border: none;
+  border-radius: 2px;
+  padding: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  z-index: 1002;
+  scrollbar-width: thin;
+  scrollbar-color: #826748 #FBF7F3;
+}
+
+.headerDropdown::-webkit-scrollbar {
+  width: 8px;
+}
+
+.headerDropdown::-webkit-scrollbar-track {
+  background: #FBF7F3;
+  border-radius: 4px;
+}
+
+.headerDropdown::-webkit-scrollbar-thumb {
+  background: #826748;
+  border-radius: 4px;
+}
+
+.headerDropdown::-webkit-scrollbar-thumb:hover {
+  background: #221102;
+}
+
+.headerDropdownHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.headerDropdownTitle {
+  font-family: var(--font-heading, 'Anticva', serif);
+  font-size: 18px;
+  color: #6A2F11;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.headerDropdownClose {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background: none;
+  border: none;
+  color: #521E1E;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.headerDropdownClose:hover {
+  opacity: 0.8;
+}
+
+.headerFilterBlock {
+  margin-bottom: 20px;
+  padding: 16px;
+  border-bottom: 1px solid rgba(34, 17, 2, 0.08);
+  background: #FFFFFF;
+}
+
+.headerFilterBlock:last-of-type {
+  border-bottom: none;
+}
+
+.headerFilterLabelWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.headerFilterLabel {
+  display: block;
+  font-family: var(--font-body, 'Raleway', sans-serif);
+  font-size: 18px;
+  color: #6A2F11;
+}
+
+.headerResetBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  font-size: 14px;
+  color: #9D9DA5;
+  background: none;
+  text-decoration: dotted;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.headerResetBtnIcon {
+  font-size: 1.25rem;
+}
+
+.headerFilterOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.headerFilterCheck {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  color: #221102;
+  cursor: pointer;
+}
+
+.headerFilterCheck input {
+  width: 18px;
+  height: 18px;
+  background: #6A2F11;
+  color: #fff;
+  accent-color: #6A2F11;
+}
+
+.headerFilterFooter {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(34, 17, 2, 0.08);
+}
+
+.headerFilterShowBtn {
+  width: 100%;
+  padding: 10px 16px;
+  font-family: var(--font-heading, 'Anticva', serif);
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #FBF7F3;
+  background: #521E1E;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.headerFilterShowBtn:hover {
+  background: #752d0b;
+}
+
+/* Выпадающий поиск (страница каталога подгруппы) */
+.headerSearchWrap {
+  position: relative;
+}
+
+.headerSearchDropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 8px;
+  min-width: 480px;
+  background: #EDE3D9;
+  border: 1px solid rgba(232, 220, 200, 0.25);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  z-index: 1002;
+}
+
+.headerSearchDropdownBar {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 0.5rem 0.5rem 0.5rem 0.75rem;
+}
+
+.headerSearchDropdownSearchBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0 -0.25rem 0 0;
+  background: transparent;
+  border: none;
+  color: #021A2A;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.headerSearchDropdownSearchBtn:hover {
+  background: rgba(232, 220, 200, 0.15);
+}
+
+.headerSearchDropdownSearchBtn svg {
+  font-size: 2rem;
+}
+
+.headerSearchDropdownInput {
+  flex: 1;
+  min-width: 0;
+  font-size: 1rem;
+  color: #021A2A;
+  background: #FFFDFC;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+.headerSearchDropdownInput::placeholder {
+  color: #9D9DA5;
+}
+
+.headerSearchDropdownClose {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  color: #021A2A;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.headerSearchDropdownClose:hover {
+  background: rgba(232, 220, 200, 0.15);
+}
+
+.headerSearchDropdownClose svg {
+  font-size: 2rem;
+}

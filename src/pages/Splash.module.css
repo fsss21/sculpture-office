@@ -1,0 +1,30 @@
+.root {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/start_screen_img.png');
+  background-size: cover;
+  background-position: center 20%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+@media (min-resolution: 2dppx) {
+  .root {
+    background-image: url('../assets/start_screen_img-4k.png');
+  }
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  color: #5D1E00;
+  margin: 0 0 1.5rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
