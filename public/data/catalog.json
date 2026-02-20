@@ -5,132 +5,17 @@
       "title": "Инструменты для лепки из глины",
       "subgroups": [
         {
-          "id": "wire-loops",
-          "title": "Проволочные петли",
-          "image": "/data/images/wire-loops.jpg",
-          "items": [
-            {
-              "id": "wl-1",
-              "name": "Петля круглая малая",
-              "image": "/data/images/items/wl-1.jpg",
-              "images": ["/data/images/items/wl-1.jpg", "/data/images/items/wl-1-2.jpg"],
-              "description": "Круглая петля малого размера для тонкой работы с глиной.",
-              "features": "Нержавеющая сталь, деревянная ручка",
-              "purpose": "Выборка глины в труднодоступных местах, создание углублений.",
-              "type": "петля",
-              "material": "сталь"
-            },
-            {
-              "id": "wl-2",
-              "name": "Петля овальная средняя",
-              "image": "/data/images/items/wl-2.jpg",
-              "images": ["/data/images/items/wl-2.jpg"],
-              "description": "Овальная петля для средних объёмов выборки.",
-              "features": "Гибкая проволока, эргономичная ручка",
-              "purpose": "Формирование полостей в скульптуре.",
-              "type": "петля",
-              "material": "сталь"
-            },
-            {
-              "id": "wl-3",
-              "name": "Петля серповидная",
-              "image": "/data/images/items/wl-3.jpg",
-              "images": ["/data/images/items/wl-3.jpg"],
-              "description": "Серповидная петля для грубой выборки.",
-              "features": "Прочная сталь, дерево",
-              "purpose": "Быстрая выборка больших объёмов глины.",
-              "type": "петля",
-              "material": "сталь"
-            },
-            {
-              "id": "wl-4",
-              "name": "Петля плоская",
-              "image": "/data/images/items/wl-4.jpg",
-              "images": ["/data/images/items/wl-4.jpg"],
-              "description": "Плоская петля для выравнивания поверхностей.",
-              "features": "Тонкая проволока",
-              "purpose": "Срез лишней глины, выравнивание.",
-              "type": "петля",
-              "material": "сталь"
-            },
-            {
-              "id": "wl-5",
-              "name": "Петля треугольная",
-              "image": "/data/images/items/wl-5.jpg",
-              "images": ["/data/images/items/wl-5.jpg"],
-              "description": "Треугольная петля для углов и граней.",
-              "features": "Жёсткая проволока",
-              "purpose": "Проработка углов и граней в скульптуре.",
-              "type": "петля",
-              "material": "сталь"
-            },
-            {
-              "id": "wl-6",
-              "name": "Петля круглая большая",
-              "image": "/data/images/items/wl-6.jpg",
-              "images": ["/data/images/items/wl-6.jpg"],
-              "description": "Большая круглая петля для масштабных работ.",
-              "features": "Усиленная конструкция",
-              "purpose": "Выборка в крупных формах.",
-              "type": "петля",
-              "material": "сталь"
-            },
-            {
-              "id": "wl-7",
-              "name": "Петля двойная",
-              "image": "/data/images/items/wl-7.jpg",
-              "images": ["/data/images/items/wl-7.jpg"],
-              "description": "Двойная петля для фигурной выборки.",
-              "features": "Два контура",
-              "purpose": "Создание сложных рельефов.",
-              "type": "петля",
-              "material": "сталь"
-            },
-            {
-              "id": "wl-8",
-              "name": "Петля угловая",
-              "image": "/data/images/items/wl-8.jpg",
-              "images": ["/data/images/items/wl-8.jpg"],
-              "description": "Угловая петля 90°.",
-              "features": "Жёсткий угол",
-              "purpose": "Выборка в углах и пазах.",
-              "type": "петля",
-              "material": "сталь"
-            },
-            {
-              "id": "wl-9",
-              "name": "Петля полукруглая",
-              "image": "/data/images/items/wl-9.jpg",
-              "images": ["/data/images/items/wl-9.jpg"],
-              "description": "Петля в форме полукруга.",
-              "features": "Плавный контур",
-              "purpose": "Скруглённые вырезы и канавки.",
-              "type": "петля",
-              "material": "сталь"
-            },
-            {
-              "id": "wl-10",
-              "name": "Петля универсальная",
-              "image": "/data/images/items/wl-10.jpg",
-              "images": ["/data/images/items/wl-10.jpg"],
-              "description": "Универсальная петля с регулируемым контуром.",
-              "features": "Сменные насадки",
-              "purpose": "Широкий спектр работ по выборке.",
-              "type": "петля",
-              "material": "сталь"
-            }
-          ]
-        },
-        {
           "id": "wooden-stacks",
-          "title": "Стеки деревянные",
+          "title": "Стеки деревянные (XVIII-XIX вв.)",
           "image": "/data/images/wooden-stacks.jpg",
           "items": [
             {
               "id": "ws-1",
               "name": "Стек плоский",
               "image": "/data/images/items/ws-1.jpg",
-              "images": ["/data/images/items/ws-1.jpg"],
+              "images": [
+                "/data/images/items/ws-1.jpg"
+              ],
               "description": "Деревянный стек с плоским концом.",
               "features": "Твёрдая древесина (бук)",
               "purpose": "Разглаживание и выравнивание поверхности глины.",
@@ -141,7 +26,9 @@
               "id": "ws-2",
               "name": "Стек заострённый",
               "image": "/data/images/items/ws-2.jpg",
-              "images": ["/data/images/items/ws-2.jpg"],
+              "images": [
+                "/data/images/items/ws-2.jpg"
+              ],
               "description": "Заострённый деревянный стек.",
               "features": "Бук, полировка",
               "purpose": "Детальная проработка, линии, надрезы.",
@@ -152,7 +39,9 @@
               "id": "ws-3",
               "name": "Стек круглый",
               "image": "/data/images/items/ws-3.jpg",
-              "images": ["/data/images/items/ws-3.jpg"],
+              "images": [
+                "/data/images/items/ws-3.jpg"
+              ],
               "description": "Стек с круглым наконечником.",
               "features": "Дерево",
               "purpose": "Создание углублений, оттисков.",
@@ -163,7 +52,9 @@
               "id": "ws-4",
               "name": "Стек лопатка",
               "image": "/data/images/items/ws-4.jpg",
-              "images": ["/data/images/items/ws-4.jpg"],
+              "images": [
+                "/data/images/items/ws-4.jpg"
+              ],
               "description": "Стек в форме лопатки.",
               "features": "Широкий конец",
               "purpose": "Нанесение и разравнивание глины.",
@@ -174,7 +65,9 @@
               "id": "ws-5",
               "name": "Стек ребристый",
               "image": "/data/images/items/ws-5.jpg",
-              "images": ["/data/images/items/ws-5.jpg"],
+              "images": [
+                "/data/images/items/ws-5.jpg"
+              ],
               "description": "Стек с ребристой рабочей частью.",
               "features": "Текстура для фактуры",
               "purpose": "Создание фактуры, борозд.",
@@ -185,7 +78,9 @@
               "id": "ws-6",
               "name": "Стек двойной",
               "image": "/data/images/items/ws-6.jpg",
-              "images": ["/data/images/items/ws-6.jpg"],
+              "images": [
+                "/data/images/items/ws-6.jpg"
+              ],
               "description": "Двусторонний стек с разными наконечниками.",
               "features": "Два рабочих конца",
               "purpose": "Универсальный инструмент для лепки.",
@@ -196,7 +91,9 @@
               "id": "ws-7",
               "name": "Стек изогнутый",
               "image": "/data/images/items/ws-7.jpg",
-              "images": ["/data/images/items/ws-7.jpg"],
+              "images": [
+                "/data/images/items/ws-7.jpg"
+              ],
               "description": "Изогнутый деревянный стек.",
               "features": "Удобен для вогнутых поверхностей",
               "purpose": "Работа с внутренними поверхностями.",
@@ -207,7 +104,9 @@
               "id": "ws-8",
               "name": "Стек-нож",
               "image": "/data/images/items/ws-8.jpg",
-              "images": ["/data/images/items/ws-8.jpg"],
+              "images": [
+                "/data/images/items/ws-8.jpg"
+              ],
               "description": "Деревянный стек с режущей кромкой.",
               "features": "Тупое лезвие",
               "purpose": "Резка пластов глины, подрезка.",
@@ -218,7 +117,9 @@
               "id": "ws-9",
               "name": "Стек мини",
               "image": "/data/images/items/ws-9.jpg",
-              "images": ["/data/images/items/ws-9.jpg"],
+              "images": [
+                "/data/images/items/ws-9.jpg"
+              ],
               "description": "Миниатюрный деревянный стек.",
               "features": "Маленький размер",
               "purpose": "Мелкие детали, миниатюры.",
@@ -229,10 +130,242 @@
               "id": "ws-10",
               "name": "Стек шпатель",
               "image": "/data/images/items/ws-10.jpg",
-              "images": ["/data/images/items/ws-10.jpg"],
+              "images": [
+                "/data/images/items/ws-10.jpg"
+              ],
               "description": "Шпателевидный деревянный стек.",
               "features": "Широкая плоская часть",
               "purpose": "Размазывание, выравнивание больших площадей.",
+              "type": "стек",
+              "material": "дерево"
+            }
+          ]
+        },
+        {
+          "id": "bone-stacks",
+          "title": "Стеки костяные",
+          "image": "/data/images/bone-stacks.jpg",
+          "items": [
+            {
+              "id": "bs-1",
+              "name": "Стек костяной плоский",
+              "image": "/data/images/items/bs-1.jpg",
+              "images": [
+                "/data/images/items/bs-1.jpg"
+              ],
+              "description": "Плоский костяной стек для деликатной работы с глиной.",
+              "features": "Натуральная кость, полированная поверхность",
+              "purpose": "Тонкое сглаживание, работа с мелкими деталями.",
+              "type": "стек",
+              "material": "кость"
+            },
+            {
+              "id": "bs-2",
+              "name": "Стек костяной заострённый",
+              "image": "/data/images/items/bs-2.jpg",
+              "images": [
+                "/data/images/items/bs-2.jpg"
+              ],
+              "description": "Заострённый костяной стек для прорисовки деталей.",
+              "features": "Острый кончик, гладкая поверхность",
+              "purpose": "Создание тонких линий, детальная проработка.",
+              "type": "стек",
+              "material": "кость"
+            },
+            {
+              "id": "bs-3",
+              "name": "Стек костяной изогнутый",
+              "image": "/data/images/items/bs-3.jpg",
+              "images": [
+                "/data/images/items/bs-3.jpg"
+              ],
+              "description": "Изогнутый костяной стек для работы с вогнутыми поверхностями.",
+              "features": "Естественный изгиб, прочная структура",
+              "purpose": "Обработка полостей и углублений.",
+              "type": "стек",
+              "material": "кость"
+            }
+          ]
+        },
+        {
+          "id": "wire-loops",
+          "title": "Проволочные петли",
+          "image": "/data/images/wire-loops.jpg",
+          "items": [
+            {
+              "id": "wl-1",
+              "name": "Петля круглая малая",
+              "image": "/data/images/items/wl-1.jpg",
+              "images": [
+                "/data/images/items/wl-1.jpg",
+                "/data/images/items/wl-1-2.jpg"
+              ],
+              "description": "Круглая петля малого размера для тонкой работы с глиной.",
+              "features": "Нержавеющая сталь, деревянная ручка",
+              "purpose": "Выборка глины в труднодоступных местах, создание углублений.",
+              "type": "петля",
+              "material": "сталь"
+            },
+            {
+              "id": "wl-2",
+              "name": "Петля овальная средняя",
+              "image": "/data/images/items/wl-2.jpg",
+              "images": [
+                "/data/images/items/wl-2.jpg"
+              ],
+              "description": "Овальная петля для средних объёмов выборки.",
+              "features": "Гибкая проволока, эргономичная ручка",
+              "purpose": "Формирование полостей в скульптуре.",
+              "type": "петля",
+              "material": "сталь"
+            },
+            {
+              "id": "wl-3",
+              "name": "Петля серповидная",
+              "image": "/data/images/items/wl-3.jpg",
+              "images": [
+                "/data/images/items/wl-3.jpg"
+              ],
+              "description": "Серповидная петля для грубой выборки.",
+              "features": "Прочная сталь, дерево",
+              "purpose": "Быстрая выборка больших объёмов глины.",
+              "type": "петля",
+              "material": "сталь"
+            },
+            {
+              "id": "wl-4",
+              "name": "Петля плоская",
+              "image": "/data/images/items/wl-4.jpg",
+              "images": [
+                "/data/images/items/wl-4.jpg"
+              ],
+              "description": "Плоская петля для выравнивания поверхностей.",
+              "features": "Тонкая проволока",
+              "purpose": "Срез лишней глины, выравнивание.",
+              "type": "петля",
+              "material": "сталь"
+            },
+            {
+              "id": "wl-5",
+              "name": "Петля треугольная",
+              "image": "/data/images/items/wl-5.jpg",
+              "images": [
+                "/data/images/items/wl-5.jpg"
+              ],
+              "description": "Треугольная петля для углов и граней.",
+              "features": "Жёсткая проволока",
+              "purpose": "Проработка углов и граней в скульптуре.",
+              "type": "петля",
+              "material": "сталь"
+            },
+            {
+              "id": "wl-6",
+              "name": "Петля круглая большая",
+              "image": "/data/images/items/wl-6.jpg",
+              "images": [
+                "/data/images/items/wl-6.jpg"
+              ],
+              "description": "Большая круглая петля для масштабных работ.",
+              "features": "Усиленная конструкция",
+              "purpose": "Выборка в крупных формах.",
+              "type": "петля",
+              "material": "сталь"
+            },
+            {
+              "id": "wl-7",
+              "name": "Петля двойная",
+              "image": "/data/images/items/wl-7.jpg",
+              "images": [
+                "/data/images/items/wl-7.jpg"
+              ],
+              "description": "Двойная петля для фигурной выборки.",
+              "features": "Два контура",
+              "purpose": "Создание сложных рельефов.",
+              "type": "петля",
+              "material": "сталь"
+            },
+            {
+              "id": "wl-8",
+              "name": "Петля угловая",
+              "image": "/data/images/items/wl-8.jpg",
+              "images": [
+                "/data/images/items/wl-8.jpg"
+              ],
+              "description": "Угловая петля 90°.",
+              "features": "Жёсткий угол",
+              "purpose": "Выборка в углах и пазах.",
+              "type": "петля",
+              "material": "сталь"
+            },
+            {
+              "id": "wl-9",
+              "name": "Петля полукруглая",
+              "image": "/data/images/items/wl-9.jpg",
+              "images": [
+                "/data/images/items/wl-9.jpg"
+              ],
+              "description": "Петля в форме полукруга.",
+              "features": "Плавный контур",
+              "purpose": "Скруглённые вырезы и канавки.",
+              "type": "петля",
+              "material": "сталь"
+            },
+            {
+              "id": "wl-10",
+              "name": "Петля универсальная",
+              "image": "/data/images/items/wl-10.jpg",
+              "images": [
+                "/data/images/items/wl-10.jpg"
+              ],
+              "description": "Универсальная петля с регулируемым контуром.",
+              "features": "Сменные насадки",
+              "purpose": "Широкий спектр работ по выборке.",
+              "type": "петля",
+              "material": "сталь"
+            }
+          ]
+        },
+        {
+          "id": "comb-stacks",
+          "title": "Гребенчатые стеки",
+          "image": "/data/images/comb-stacks.jpg",
+          "items": [
+            {
+              "id": "cs-1",
+              "name": "Стек гребенчатый мелкий",
+              "image": "/data/images/items/cs-1.jpg",
+              "images": [
+                "/data/images/items/cs-1.jpg"
+              ],
+              "description": "Гребенчатый стек с мелкими зубцами для текстурирования.",
+              "features": "Частые зубцы, деревянная ручка",
+              "purpose": "Создание мелкой текстуры, имитация волос и шерсти.",
+              "type": "стек",
+              "material": "дерево"
+            },
+            {
+              "id": "cs-2",
+              "name": "Стек гребенчатый крупный",
+              "image": "/data/images/items/cs-2.jpg",
+              "images": [
+                "/data/images/items/cs-2.jpg"
+              ],
+              "description": "Гребенчатый стек с крупными зубцами.",
+              "features": "Редкие зубцы, широкий захват",
+              "purpose": "Создание борозд, грубой текстуры.",
+              "type": "стек",
+              "material": "дерево"
+            },
+            {
+              "id": "cs-3",
+              "name": "Стек гребенчатый двусторонний",
+              "image": "/data/images/items/cs-3.jpg",
+              "images": [
+                "/data/images/items/cs-3.jpg"
+              ],
+              "description": "Двусторонний стек с разными гребёнками.",
+              "features": "Мелкие и крупные зубцы на разных концах",
+              "purpose": "Универсальное текстурирование поверхности.",
               "type": "стек",
               "material": "дерево"
             }
@@ -253,7 +386,9 @@
               "id": "sc-1",
               "name": "Скарпель прямая узкая",
               "image": "/data/images/chisels.jpg",
-              "images": ["/data/images/chisels.jpg"],
+              "images": [
+                "/data/images/chisels.jpg"
+              ],
               "description": "Прямое долото узкой ширины для точной обработки камня.",
               "features": "Закалённая сталь, деревянная ручка",
               "purpose": "Резка прямых линий, снятие тонких слоёв камня.",
@@ -264,7 +399,9 @@
               "id": "sc-2",
               "name": "Скарпель прямая широкая",
               "image": "/data/images/chisels.jpg",
-              "images": ["/data/images/chisels.jpg"],
+              "images": [
+                "/data/images/chisels.jpg"
+              ],
               "description": "Широкое прямое долото для грубой обтёски.",
               "features": "Толстое лезвие, прочная рукоять",
               "purpose": "Массовая сколка камня, выравнивание плоскостей.",
@@ -275,11 +412,59 @@
               "id": "sc-3",
               "name": "Долото прямое зубильное",
               "image": "/data/images/chisels.jpg",
-              "images": ["/data/images/chisels.jpg"],
+              "images": [
+                "/data/images/chisels.jpg"
+              ],
               "description": "Прямое зубило для работы с мрамором и известняком.",
               "features": "Нержавеющая сталь",
               "purpose": "Резка по камню, создание граней.",
               "type": "Скарпели (прямые долота)",
+              "material": "сталь"
+            }
+          ]
+        },
+        {
+          "id": "shpunty",
+          "title": "Шпунты (полукруглые долота)",
+          "image": "/data/images/chisels.jpg",
+          "items": [
+            {
+              "id": "shp-1",
+              "name": "Шпунт полукруглый малый",
+              "image": "/data/images/chisels.jpg",
+              "images": [
+                "/data/images/chisels.jpg"
+              ],
+              "description": "Малое полукруглое долото для тонкой резьбы по камню.",
+              "features": "Изогнутое лезвие малого радиуса, закалённая сталь",
+              "purpose": "Выборка мелких вогнутых поверхностей, детальная резьба.",
+              "type": "Шпунты (полукруглые долота)",
+              "material": "сталь"
+            },
+            {
+              "id": "shp-2",
+              "name": "Шпунт полукруглый средний",
+              "image": "/data/images/chisels.jpg",
+              "images": [
+                "/data/images/chisels.jpg"
+              ],
+              "description": "Полукруглое долото среднего размера для скульптурной работы.",
+              "features": "Средний радиус изгиба, деревянная ручка",
+              "purpose": "Формирование складок, округлых переходов.",
+              "type": "Шпунты (полукруглые долота)",
+              "material": "сталь"
+            },
+            {
+              "id": "shp-3",
+              "name": "Шпунт полукруглый широкий",
+              "image": "/data/images/chisels.jpg",
+              "images": [
+                "/data/images/chisels.jpg"
+              ],
+              "description": "Широкое полукруглое долото для крупных форм.",
+              "features": "Большой радиус, усиленная конструкция",
+              "purpose": "Обработка крупных вогнутых поверхностей.",
+              "type": "Шпунты (полукруглые долота)",
               "material": "сталь"
             }
           ]
@@ -293,7 +478,9 @@
               "id": "kv-1",
               "name": "Канавочник полукруглый малый",
               "image": "/data/images/chisels.jpg",
-              "images": ["/data/images/chisels.jpg"],
+              "images": [
+                "/data/images/chisels.jpg"
+              ],
               "description": "Полукруглое долото для выборки канавок малого радиуса.",
               "features": "Изогнутое лезвие, эргономичная ручка",
               "purpose": "Прорезка желобов, декоративных канавок в камне.",
@@ -304,7 +491,9 @@
               "id": "kv-2",
               "name": "Канавочник V-образный",
               "image": "/data/images/chisels.jpg",
-              "images": ["/data/images/chisels.jpg"],
+              "images": [
+                "/data/images/chisels.jpg"
+              ],
               "description": "Долото с V-образным профилем для острых канавок.",
               "features": "Угол 90°, закалённая сталь",
               "purpose": "Чёткие грани, надписи, орнамент.",
@@ -315,11 +504,59 @@
               "id": "kv-3",
               "name": "Канавочник широкий",
               "image": "/data/images/chisels.jpg",
-              "images": ["/data/images/chisels.jpg"],
+              "images": [
+                "/data/images/chisels.jpg"
+              ],
               "description": "Широкий канавочник для глубоких желобов.",
               "features": "Большой радиус, усиленная рукоять",
               "purpose": "Крупные канавки, декоративная выборка.",
               "type": "Канавочники",
+              "material": "сталь"
+            }
+          ]
+        },
+        {
+          "id": "buchardy",
+          "title": "Бучарды зубчатые",
+          "image": "/data/images/chisels.jpg",
+          "items": [
+            {
+              "id": "bu-1",
+              "name": "Бучарда зубчатая 16 зубьев",
+              "image": "/data/images/chisels.jpg",
+              "images": [
+                "/data/images/chisels.jpg"
+              ],
+              "description": "Бучарда с 16 зубьями для создания шероховатой поверхности.",
+              "features": "Квадратный бойок 4x4, закалённые зубья",
+              "purpose": "Насечка камня, создание антискользящей поверхности.",
+              "type": "Бучарды зубчатые",
+              "material": "сталь"
+            },
+            {
+              "id": "bu-2",
+              "name": "Бучарда зубчатая 25 зубьев",
+              "image": "/data/images/chisels.jpg",
+              "images": [
+                "/data/images/chisels.jpg"
+              ],
+              "description": "Бучарда с 25 зубьями для средней фактуры.",
+              "features": "Квадратный бойок 5x5, эргономичная ручка",
+              "purpose": "Обработка больших площадей, равномерная фактура.",
+              "type": "Бучарды зубчатые",
+              "material": "сталь"
+            },
+            {
+              "id": "bu-3",
+              "name": "Бучарда мелкозубая 36 зубьев",
+              "image": "/data/images/chisels.jpg",
+              "images": [
+                "/data/images/chisels.jpg"
+              ],
+              "description": "Мелкозубая бучарда для тонкой фактурной обработки.",
+              "features": "Квадратный бойок 6x6, мелкие зубья",
+              "purpose": "Деликатная фактура, финишная обработка.",
+              "type": "Бучарды зубчатые",
               "material": "сталь"
             }
           ]
@@ -333,7 +570,9 @@
               "id": "rs-1",
               "name": "Рашпиль плоский скульптурный",
               "image": "/data/images/chisels.jpg",
-              "images": ["/data/images/chisels.jpg"],
+              "images": [
+                "/data/images/chisels.jpg"
+              ],
               "description": "Плоский рашпиль для сглаживания и формовки камня.",
               "features": "Крупная насечка, стальное полотно",
               "purpose": "Снятие неровностей, подготовка поверхности.",
@@ -344,7 +583,9 @@
               "id": "rs-2",
               "name": "Рашпиль круглый",
               "image": "/data/images/chisels.jpg",
-              "images": ["/data/images/chisels.jpg"],
+              "images": [
+                "/data/images/chisels.jpg"
+              ],
               "description": "Круглый рашпиль для вогнутых поверхностей и отверстий.",
               "features": "Цилиндрическая форма, двусторонняя насечка",
               "purpose": "Обработка полостей, скруглений в скульптуре.",
@@ -355,7 +596,9 @@
               "id": "rs-3",
               "name": "Рашпиль полукруглый",
               "image": "/data/images/chisels.jpg",
-              "images": ["/data/images/chisels.jpg"],
+              "images": [
+                "/data/images/chisels.jpg"
+              ],
               "description": "Полукруглый рашпиль для рельефа и переходов.",
               "features": "Средняя насечка, деревянная ручка",
               "purpose": "Детальная проработка рельефа, сглаживание.",
@@ -379,7 +622,9 @@
               "id": "cr-1",
               "name": "Циркуль разметочный малый",
               "image": "/data/images/calipers.jpg",
-              "images": ["/data/images/calipers.jpg"],
+              "images": [
+                "/data/images/calipers.jpg"
+              ],
               "description": "Малый циркуль для разметки окружностей и дуг на заготовках.",
               "features": "Фиксируемый раствор, стальные ножки",
               "purpose": "Разметка кругов, перенос размеров.",
@@ -390,7 +635,9 @@
               "id": "cr-2",
               "name": "Кронциркуль пружинный",
               "image": "/data/images/calipers.jpg",
-              "images": ["/data/images/calipers.jpg"],
+              "images": [
+                "/data/images/calipers.jpg"
+              ],
               "description": "Пружинный кронциркуль для измерения наружных размеров.",
               "features": "Пружинный механизм, точная шкала",
               "purpose": "Измерение диаметров, толщины деталей.",
@@ -401,11 +648,59 @@
               "id": "cr-3",
               "name": "Циркуль с резьбовым раствором",
               "image": "/data/images/calipers.jpg",
-              "images": ["/data/images/calipers.jpg"],
+              "images": [
+                "/data/images/calipers.jpg"
+              ],
               "description": "Циркуль с точной настройкой раствора по резьбе.",
               "features": "Микрометрическая точность, закалённые наконечники",
               "purpose": "Точная разметка и измерение радиусов.",
               "type": "Циркули и кронциркули",
+              "material": "сталь"
+            }
+          ]
+        },
+        {
+          "id": "proportional-cirkuli",
+          "title": "Пропорциональные циркули",
+          "image": "/data/images/calipers.jpg",
+          "items": [
+            {
+              "id": "pc-1",
+              "name": "Циркуль пропорциональный малый",
+              "image": "/data/images/calipers.jpg",
+              "images": [
+                "/data/images/calipers.jpg"
+              ],
+              "description": "Малый пропорциональный циркуль для масштабирования моделей.",
+              "features": "Регулируемый центр вращения, шкала пропорций",
+              "purpose": "Перенос размеров с увеличением/уменьшением в заданной пространство.",
+              "type": "Пропорциональные циркули",
+              "material": "сталь"
+            },
+            {
+              "id": "pc-2",
+              "name": "Циркуль пропорциональный средний",
+              "image": "/data/images/calipers.jpg",
+              "images": [
+                "/data/images/calipers.jpg"
+              ],
+              "description": "Средний пропорциональный циркуль для скульптурных работ.",
+              "features": "Фиксатор пропорции, латунные вставки",
+              "purpose": "Точное масштабирование деталей скульптуры.",
+              "type": "Пропорциональные циркули",
+              "material": "сталь"
+            },
+            {
+              "id": "pc-3",
+              "name": "Циркуль пропорциональный большой",
+              "image": "/data/images/calipers.jpg",
+              "images": [
+                "/data/images/calipers.jpg"
+              ],
+              "description": "Большой пропорциональный циркуль для монументальных работ.",
+              "features": "Раствор до 50 см, усиленная конструкция",
+              "purpose": "Масштабирование крупных форм.",
+              "type": "Пропорциональные циркули",
               "material": "сталь"
             }
           ]
@@ -419,7 +714,9 @@
               "id": "ot-1",
               "name": "Отвес скульптурный 200 г",
               "image": "/data/images/calipers.jpg",
-              "images": ["/data/images/calipers.jpg"],
+              "images": [
+                "/data/images/calipers.jpg"
+              ],
               "description": "Отвес средней массы для проверки вертикали при установке скульптуры.",
               "features": "Стальной конус, капроновая нить",
               "purpose": "Выравнивание по вертикали, контроль установки.",
@@ -430,7 +727,9 @@
               "id": "ot-2",
               "name": "Отвес тяжёлый 500 г",
               "image": "/data/images/calipers.jpg",
-              "images": ["/data/images/calipers.jpg"],
+              "images": [
+                "/data/images/calipers.jpg"
+              ],
               "description": "Тяжёлый отвес для крупных работ и уличных скульптур.",
               "features": "Усиленная нить, массивный груз",
               "purpose": "Вертикаль при монтаже крупных форм.",
@@ -448,7 +747,9 @@
               "id": "kl-1",
               "name": "Калипер наружный 150 мм",
               "image": "/data/images/calipers.jpg",
-              "images": ["/data/images/calipers.jpg"],
+              "images": [
+                "/data/images/calipers.jpg"
+              ],
               "description": "Калипер для измерения наружных размеров до 150 мм.",
               "features": "Штангенциркуль тип I, нониус 0,1 мм",
               "purpose": "Точное измерение диаметров и толщин.",
@@ -459,7 +760,9 @@
               "id": "kl-2",
               "name": "Калипер внутренний",
               "image": "/data/images/calipers.jpg",
-              "images": ["/data/images/calipers.jpg"],
+              "images": [
+                "/data/images/calipers.jpg"
+              ],
               "description": "Калипер для измерения внутренних размеров и пазов.",
               "features": "Обратные губки, шкала 0,1 мм",
               "purpose": "Измерение отверстий, полостей, пазов.",
@@ -483,7 +786,9 @@
               "id": "mo-1",
               "name": "Молоток скульптурный киянка деревянная",
               "image": "/data/images/hammers.jpg",
-              "images": ["/data/images/hammers.jpg"],
+              "images": [
+                "/data/images/hammers.jpg"
+              ],
               "description": "Деревянная киянка для ударов по скарпели и долотам.",
               "features": "Твёрдая древесина (бук), удобная рукоять",
               "purpose": "Ударное долбление камня без повреждения инструмента.",
@@ -494,40 +799,13 @@
               "id": "mo-2",
               "name": "Молоток металлический скульптурный",
               "image": "/data/images/hammers.jpg",
-              "images": ["/data/images/hammers.jpg"],
+              "images": [
+                "/data/images/hammers.jpg"
+              ],
               "description": "Металлический молоток для грубой сколки камня.",
               "features": "Закалённый бойок, прочная ручка",
               "purpose": "Сильные удары по зубилу, раскалывание.",
               "type": "Молотки скульптурные",
-              "material": "сталь"
-            }
-          ]
-        },
-        {
-          "id": "shchetki",
-          "title": "Металлические щетки",
-          "image": "/data/images/sponges.jpg",
-          "items": [
-            {
-              "id": "sh-1",
-              "name": "Щётка металлическая ручная",
-              "image": "/data/images/sponges.jpg",
-              "images": ["/data/images/sponges.jpg"],
-              "description": "Ручная металлическая щётка для очистки камня и инструмента.",
-              "features": "Стальная щетина, деревянная ручка",
-              "purpose": "Удаление окалины, ржавчины, очистка поверхности камня.",
-              "type": "Металлические щетки",
-              "material": "сталь"
-            },
-            {
-              "id": "sh-2",
-              "name": "Щётка-скребок комбинированная",
-              "image": "/data/images/sponges.jpg",
-              "images": ["/data/images/sponges.jpg"],
-              "description": "Щётка с боковым скребком для труднодоступных мест.",
-              "features": "Жёсткая щетина, стальной скребок",
-              "purpose": "Очистка пазов, углов, финишная обработка.",
-              "type": "Металлические щетки",
               "material": "сталь"
             }
           ]
@@ -541,7 +819,9 @@
               "id": "klv-1",
               "name": "Клин стальной скульптурный",
               "image": "/data/images/sponges.jpg",
-              "images": ["/data/images/sponges.jpg"],
+              "images": [
+                "/data/images/sponges.jpg"
+              ],
               "description": "Стальной клин для раскалывания и откола камня.",
               "features": "Закалённая сталь, тупой угол",
               "purpose": "Раскалывание блоков, откол крупных кусков.",
@@ -552,12 +832,106 @@
               "id": "klv-2",
               "name": "Клинья набор из 3 шт",
               "image": "/data/images/sponges.jpg",
-              "images": ["/data/images/sponges.jpg"],
+              "images": [
+                "/data/images/sponges.jpg"
+              ],
               "description": "Набор клиньев разного размера для контролируемого раскалывания.",
               "features": "Три размера, сталь",
               "purpose": "Точный откол по линии, подготовка блоков.",
               "type": "Клинья",
               "material": "сталь"
+            }
+          ]
+        },
+        {
+          "id": "shchetki",
+          "title": "Металлические щетки",
+          "image": "/data/images/sponges.jpg",
+          "items": [
+            {
+              "id": "sh-1",
+              "name": "Щётка металлическая ручная",
+              "image": "/data/images/sponges.jpg",
+              "images": [
+                "/data/images/sponges.jpg"
+              ],
+              "description": "Ручная металлическая щётка для очистки камня и инструмента.",
+              "features": "Стальная щетина, деревянная ручка",
+              "purpose": "Удаление окалины, ржавчины, очистка поверхности камня.",
+              "type": "Металлические щетки",
+              "material": "сталь"
+            },
+            {
+              "id": "sh-2",
+              "name": "Щётка-скребок комбинированная",
+              "image": "/data/images/sponges.jpg",
+              "images": [
+                "/data/images/sponges.jpg"
+              ],
+              "description": "Щётка с боковым скребком для труднодоступных мест.",
+              "features": "Жёсткая щетина, стальной скребок",
+              "purpose": "Очистка пазов, углов, финишная обработка.",
+              "type": "Металлические щетки",
+              "material": "сталь"
+            }
+          ]
+        },
+        {
+          "id": "abrazivnye",
+          "title": "Абразивные материалы",
+          "image": "/data/images/sponges.jpg",
+          "items": [
+            {
+              "id": "ab-1",
+              "name": "Брусок абразивный крупнозернистый",
+              "image": "/data/images/sponges.jpg",
+              "images": [
+                "/data/images/sponges.jpg"
+              ],
+              "description": "Крупнозернистый абразивный брусок для грубой шлифовки камня.",
+              "features": "Зернистость 60, карборунд",
+              "purpose": "Первичная шлифовка, снятие крупных неровностей.",
+              "type": "Абразивные материалы",
+              "material": "карборунд"
+            },
+            {
+              "id": "ab-2",
+              "name": "Брусок абразивный среднезернистый",
+              "image": "/data/images/sponges.jpg",
+              "images": [
+                "/data/images/sponges.jpg"
+              ],
+              "description": "Среднезернистый брусок для промежуточной обработки.",
+              "features": "Зернистость 120, карборунд",
+              "purpose": "Сглаживание после грубой обработки.",
+              "type": "Абразивные материалы",
+              "material": "карборунд"
+            },
+            {
+              "id": "ab-3",
+              "name": "Брусок абразивный мелкозернистый",
+              "image": "/data/images/sponges.jpg",
+              "images": [
+                "/data/images/sponges.jpg"
+              ],
+              "description": "Мелкозернистый брусок для финишной полировки.",
+              "features": "Зернистость 320, карборунд",
+              "purpose": "Финишная обработка, подготовка к полировке.",
+              "type": "Абразивные материалы",
+              "material": "карборунд"
+            },
+            {
+              "id": "ab-4",
+              "name": "Шкурка абразивная водостойкая",
+              "image": "/data/images/sponges.jpg",
+              "images": [
+                "/data/images/sponges.jpg"
+              ],
+              "description": "Водостойкая абразивная шкурка для мокрой шлифовки.",
+              "features": "Зернистость 400-1000, бумажная основа",
+              "purpose": "Мокрая шлифовка мрамора и гранита.",
+              "type": "Абразивные материалы",
+              "material": "бумага"
             }
           ]
         }

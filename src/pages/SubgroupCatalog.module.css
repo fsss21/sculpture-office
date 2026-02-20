@@ -25,7 +25,7 @@
 
 /* Доп. класс для позиционирования строки с заголовком (headerTitleRow) на странице каталога подгруппы */
 .headerTitleRowSubgroup {
-  left: 12%;
+  left: 15%;
   bottom: 10%;
   gap: 3rem;
   height: 200px;
@@ -33,7 +33,7 @@
 
 /* Доп. класс для заголовка (headerTitle / h1) на странице каталога подгруппы */
 .headerTitleSubgroup {
-  max-width: 650px;
+  max-width: 750px;
   width: 100%;
 }
 
