@@ -1,0 +1,89 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+}
+
+/* Классы для разных викторин с фонами */
+.game_tool {
+  background-image: url('../assets/game_tool_img.png');
+  background-size: cover;
+  background-position: center 20%;
+}
+
+.game_sculptor {
+  background-image: url('../assets/game_sculptor_img.png');
+  background-size: cover;
+  background-position: center 20%;
+}
+
+.card {
+  background: none;
+  border-radius: 16px;
+  padding: 40px ;
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  color: #5D1E00;
+  text-transform: uppercase;
+  font-size: 58px;
+  margin: 0 0 16px 0;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: rgb(93, 30, 0, 70%);
+  text-transform: uppercase;
+  font-size: 28px;
+  margin: 0 0 40px 0;
+  line-height: 1.6;
+}
+
+.startButton {
+  font-family: 'Anticva', sans-serif;
+  background: #5D1E00;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 18px ;
+  font-size: 1.2rem;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-bottom: 20px;
+}
+
+.startButton:hover {
+  transform: translateY(-2px);
+}
+
+.startButton:active {
+  transform: translateY(0);
+}
+
+.soundButton {
+  font-family: 'Anticva', sans-serif;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.soundButton:hover {
+  background: rgba(0, 0, 0, 0.05);
+}

@@ -12,6 +12,9 @@ export default function MainMenu() {
     navigate('/', { replace: true })
   }
 
+  const goToQuiz = () => {
+    navigate('/quiz', { replace: true })
+  }
 
   return (
     <div className={styles.root}>
@@ -21,7 +24,7 @@ export default function MainMenu() {
           <button type="button" onClick={goToCatalog} className={styles.button}>
             Перейти в каталог
           </button>
-          <button type="button" className={styles.button} disabled>
+          <button type="button" onClick={goToQuiz} className={styles.button}>
             Участвовать в викторине
           </button>
         </div>

@@ -1,0 +1,140 @@
+.container {
+  min-height: 100vh;
+  padding: 40px 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../assets/main_menu_img.png');
+  background-size: cover;
+  background-position: center 20%;
+}
+
+.backButton {
+  position: absolute;
+  left: 4%;
+  top: 4%;
+  z-index: 2;
+  font-family: 'Anticva', sans-serif;
+  background: rgba(255, 255, 255, 0.2);
+  color: #5D1E00;
+  border: solid #5D1E00 2px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.backButton:hover {
+  background: rgba(255, 255, 255, 0.35);
+  transform: translateY(-1px);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+.mainTitle {
+  color: #5D1E00;
+  font-size: 3rem;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.soundButton {
+  font-family: 'Anticva', sans-serif;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: background 0.2s;
+  backdrop-filter: blur(10px);
+}
+
+.soundButton:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.quizzesGrid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  max-width: 1450px;
+  width: 100%;
+  position: relative;
+}
+
+.quizCard {
+  margin-top: 250px;
+  min-height: 500px;
+  background: none;
+  border-radius: 16px;
+  padding: 40px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.quizTextBlock{
+  text-transform: uppercase;
+}
+
+.quizTitle {
+  color: #5D1E00;
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+}
+
+
+.quizButton {
+  font-family: 'Anticva', sans-serif;
+  background: rgb(93, 30, 0, 15%);
+  color: #5D1E00;
+  border: solid #5D1E00 2px;
+  padding: 26px ;
+  font-size: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-transform: uppercase;
+}
+
+.quizButton:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .mainTitle {
+    font-size: 2rem;
+  }
+
+  .soundButton {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .quizzesGrid {
+    grid-template-columns: 1fr;
+  }
+}
