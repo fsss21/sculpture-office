@@ -7,12 +7,6 @@
       "task": "Снять большой объем камня при грубой обработке мрамора",
       "answers": [
         {
-          "text": "Скарпель",
-          "correct": true,
-          "image": "/images/tools/place_holder.png",
-          "explanation": "Скарпель - это инструмент для грубой обработки камня, используется для снятия больших объемов материала."
-        },
-        {
           "text": "Канавочник",
           "correct": false,
           "image": "/images/tools/place_holder.png",
@@ -23,6 +17,12 @@
           "correct": false,
           "image": "/images/tools/wooden-stick.jpg",
           "explanation": "Деревянный стек используется для работы с мягкими материалами, такими как глина."
+        },
+        {
+          "text": "Скарпель",
+          "correct": true,
+          "image": "/images/tools/place_holder.png",
+          "explanation": "Скарпель - это инструмент для грубой обработки камня, используется для снятия больших объемов материала."
         },
         {
           "text": "Кронциркуль",
@@ -37,12 +37,6 @@
       "id": 2,
       "task": "Создать углубление полукруглой формы в камне",
       "answers": [
-        {
-          "text": "Шпунт",
-          "correct": true,
-          "image": "/images/tools/gouge.jpg",
-          "explanation": "Шпунт (зубило с полукруглым лезвием) предназначен именно для создания полукруглых углублений."
-        },
         {
           "text": "Зубило плоское",
           "correct": false,
@@ -60,6 +54,12 @@
           "correct": false,
           "image": "/images/tools/rasp.jpg",
           "explanation": "Рашпиль используется для шлифовки поверхности, а не для создания углублений."
+        },
+        {
+          "text": "Шпунт",
+          "correct": true,
+          "image": "/images/tools/gouge.jpg",
+          "explanation": "Шпунт (зубило с полукруглым лезвием) предназначен именно для создания полукруглых углублений."
         }
       ],
       "additionalInfo": "Шпунт - это специальное зубило с закругленным лезвием, позволяющее создавать плавные криволинейные формы в камне."
@@ -69,16 +69,16 @@
       "task": "Создать фактуру волос на глиняной модели",
       "answers": [
         {
-          "text": "Гребенчатый стек",
-          "correct": true,
-          "image": "/images/tools/comb-tool.jpg",
-          "explanation": "Гребенчатый стек специально предназначен для создания фактуры волос и других мелких деталей."
-        },
-        {
           "text": "Канавочник",
           "correct": false,
           "image": "/images/tools/groover.jpg",
           "explanation": "Канавочник создает узкие канавки, но не подходит для фактуры волос."
+        },
+        {
+          "text": "Гребенчатый стек",
+          "correct": true,
+          "image": "/images/tools/comb-tool.jpg",
+          "explanation": "Гребенчатый стек специально предназначен для создания фактуры волос и других мелких деталей."
         },
         {
           "text": "Кронциркуль",
@@ -100,12 +100,6 @@
       "task": "Выровнять и сгладить поверхность глиняной модели",
       "answers": [
         {
-          "text": "Стек деревянный",
-          "correct": true,
-          "image": "/images/tools/wooden-stick.jpg",
-          "explanation": "Деревянный стек идеально подходит для выравнивания и сглаживания поверхности мягких материалов, таких как глина."
-        },
-        {
           "text": "Скарпель",
           "correct": false,
           "image": "/images/tools/scarper.jpg",
@@ -116,6 +110,12 @@
           "correct": false,
           "image": "/images/tools/compass.jpg",
           "explanation": "Кронциркуль используется для измерения, а не для обработки поверхности."
+        },
+        {
+          "text": "Стек деревянный",
+          "correct": true,
+          "image": "/images/tools/wooden-stick.jpg",
+          "explanation": "Деревянный стек идеально подходит для выравнивания и сглаживания поверхности мягких материалов, таких как глина."
         },
         {
           "text": "Шпунт",
@@ -131,16 +131,16 @@
       "task": "Создать узкое углубление-канавку в камне",
       "answers": [
         {
-          "text": "Канавочник",
-          "correct": true,
-          "image": "/images/tools/groover.jpg",
-          "explanation": "Канавочник специально предназначен для создания узких углублений и канавок в камне."
-        },
-        {
           "text": "Шпунт",
           "correct": false,
           "image": "/images/tools/gouge.jpg",
           "explanation": "Шпунт создает более широкие полукруглые углубления."
+        },
+        {
+          "text": "Канавочник",
+          "correct": true,
+          "image": "/images/tools/groover.jpg",
+          "explanation": "Канавочник специально предназначен для создания узких углублений и канавок в камне."
         },
         {
           "text": "Рашпиль",
@@ -162,16 +162,16 @@
       "task": "Измерить пропорции модели при создании скульптуры",
       "answers": [
         {
-          "text": "Кронциркуль",
-          "correct": true,
-          "image": "/images/tools/compass.jpg",
-          "explanation": "Кронциркуль - основной измерительный инструмент скульптора для определения пропорций."
-        },
-        {
           "text": "Скарпель",
           "correct": false,
           "image": "/images/tools/scarper.jpg",
           "explanation": "Скарпель - инструмент для обработки, а не для измерения."
+        },
+        {
+          "text": "Кронциркуль",
+          "correct": true,
+          "image": "/images/tools/compass.jpg",
+          "explanation": "Кронциркуль - основной измерительный инструмент скульптора для определения пропорций."
         },
         {
           "text": "Канавочник",
@@ -193,12 +193,6 @@
       "task": "Шлифовать и полировать поверхность камня",
       "answers": [
         {
-          "text": "Рашпиль",
-          "correct": true,
-          "image": "/images/tools/rasp.jpg",
-          "explanation": "Рашпиль используется для шлифовки и подготовки поверхности камня к полировке."
-        },
-        {
           "text": "Скарпель",
           "correct": false,
           "image": "/images/tools/scarper.jpg",
@@ -209,6 +203,12 @@
           "correct": false,
           "image": "/images/tools/groover.jpg",
           "explanation": "Канавочник создает углубления, а не шлифует."
+        },
+        {
+          "text": "Рашпиль",
+          "correct": true,
+          "image": "/images/tools/rasp.jpg",
+          "explanation": "Рашпиль используется для шлифовки и подготовки поверхности камня к полировке."
         },
         {
           "text": "Шпунт",
@@ -223,12 +223,6 @@
       "id": 8,
       "task": "Удалить излишки глины из углублений",
       "answers": [
-        {
-          "text": "Проволочная петля",
-          "correct": true,
-          "image": "/images/tools/wire-loop.jpg",
-          "explanation": "Проволочная петля позволяет аккуратно удалять глину из труднодоступных мест."
-        },
         {
           "text": "Гребенчатый стек",
           "correct": false,
@@ -246,6 +240,12 @@
           "correct": false,
           "image": "/images/tools/compass.jpg",
           "explanation": "Кронциркуль - измерительный инструмент."
+        },
+        {
+          "text": "Проволочная петля",
+          "correct": true,
+          "image": "/images/tools/wire-loop.jpg",
+          "explanation": "Проволочная петля позволяет аккуратно удалять глину из труднодоступных мест."
         }
       ],
       "additionalInfo": "Проволочная петля - незаменимый инструмент для тонкой работы с мягкими материалами."
@@ -254,12 +254,6 @@
       "id": 9,
       "task": "Создать прямые плоские поверхности на камне",
       "answers": [
-        {
-          "text": "Зубило плоское",
-          "correct": true,
-          "image": "/images/tools/flat-chisel.jpg",
-          "explanation": "Плоское зубило идеально подходит для создания прямых плоских поверхностей."
-        },
         {
           "text": "Шпунт",
           "correct": false,
@@ -271,6 +265,12 @@
           "correct": false,
           "image": "/images/tools/groover.jpg",
           "explanation": "Канавочник создает узкие углубления."
+        },
+        {
+          "text": "Зубило плоское",
+          "correct": true,
+          "image": "/images/tools/flat-chisel.jpg",
+          "explanation": "Плоское зубило идеально подходит для создания прямых плоских поверхностей."
         },
         {
           "text": "Рашпиль",
@@ -285,12 +285,6 @@
       "id": 10,
       "task": "Создать текстуру ткани на глиняной скульптуре",
       "answers": [
-        {
-          "text": "Гребенчатый стек",
-          "correct": true,
-          "image": "/images/tools/comb-tool.jpg",
-          "explanation": "Гребенчатый стек позволяет создавать различные текстуры, включая текстуру ткани."
-        },
         {
           "text": "Стек деревянный",
           "correct": false,
@@ -308,6 +302,12 @@
           "correct": false,
           "image": "/images/tools/compass.jpg",
           "explanation": "Кронциркуль используется для измерения."
+        },
+        {
+          "text": "Гребенчатый стек",
+          "correct": true,
+          "image": "/images/tools/comb-tool.jpg",
+          "explanation": "Гребенчатый стек позволяет создавать различные текстуры, включая текстуру ткани."
         }
       ],
       "additionalInfo": "Различные варианты гребенчатых стеков позволяют создавать множество текстурных эффектов."
@@ -316,12 +316,6 @@
       "id": 11,
       "task": "Перенести размеры с модели на заготовку",
       "answers": [
-        {
-          "text": "Кронциркуль",
-          "correct": true,
-          "image": "/images/tools/compass.jpg",
-          "explanation": "Кронциркуль используется для точного переноса размеров и пропорций."
-        },
         {
           "text": "Канавочник",
           "correct": false,
@@ -333,6 +327,12 @@
           "correct": false,
           "image": "/images/tools/rasp.jpg",
           "explanation": "Рашпиль предназначен для шлифовки."
+        },
+        {
+          "text": "Кронциркуль",
+          "correct": true,
+          "image": "/images/tools/compass.jpg",
+          "explanation": "Кронциркуль используется для точного переноса размеров и пропорций."
         },
         {
           "text": "Шпунт",
@@ -348,16 +348,16 @@
       "task": "Создать финальную отделку деталей на глиняной модели",
       "answers": [
         {
-          "text": "Проволочная петля",
-          "correct": true,
-          "image": "/images/tools/wire-loop.jpg",
-          "explanation": "Проволочная петля позволяет выполнять финальную тонкую отделку деталей."
-        },
-        {
           "text": "Скарпель",
           "correct": false,
           "image": "/images/tools/scarper.jpg",
           "explanation": "Скарпель слишком грубый для финальной отделки."
+        },
+        {
+          "text": "Проволочная петля",
+          "correct": true,
+          "image": "/images/tools/wire-loop.jpg",
+          "explanation": "Проволочная петля позволяет выполнять финальную тонкую отделку деталей."
         },
         {
           "text": "Канавочник",
