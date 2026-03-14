@@ -3,6 +3,19 @@ import styles from './QuizScreen.module.css'
 import api from '../utils/api'
 import { getImageUrl, getSoundUrl } from '../config'
 
+function normalizeQuestion(q) {
+  if (q.options && q.correct != null) {
+    return {
+      id: q.id,
+      task: q.action,
+      work: q.action,
+      answers: q.options.map((text) => ({ text, correct: text === q.correct, explanation: q.explanation })),
+      explanation: q.explanation
+    }
+  }
+  return q
+}
+
 function QuizScreen({ quizData, quizType, onQuizComplete, soundEnabled }) {
   const isToolsQuiz = quizType === 'tools'
   const gameClass = isToolsQuiz ? styles.game_tool : styles.game_sculptor
@@ -12,10 +25,11 @@ function QuizScreen({ quizData, quizType, onQuizComplete, soundEnabled }) {
   const [score, setScore] = useState(0)
   const [answeredQuestions, setAnsweredQuestions] = useState([])
 
-  const questions = quizData?.questions ?? []
+  const rawQuestions = quizData?.questions ?? []
+  const questions = rawQuestions.map(normalizeQuestion)
   const hasQuestions = questions.length > 0
   const currentQuestion = hasQuestions ? questions[currentQuestionIndex] : null
-  const hasTaskField = hasQuestions && questions[0].task != null && questions[0].task !== ''
+  const hasTaskField = hasQuestions && (questions[0].task != null && questions[0].task !== '' || questions[0].action != null)
 
   const handleAnswerSelect = (answerIndex) => {
     if (showResult || !currentQuestion) return
@@ -106,20 +120,24 @@ function QuizScreen({ quizData, quizType, onQuizComplete, soundEnabled }) {
 
         <div className={styles.questionContent}>
           {hasTaskField ? (
-            <h2 className={styles.task}>{currentQuestion.task}</h2>
+            <h2 className={styles.task}>{currentQuestion.task || currentQuestion.action}</h2>
           ) : (
             <>
-              <h2 className={styles.work}>{currentQuestion.work}</h2>
-              {currentQuestion.image && (
-                <img
-                  src={currentQuestion.image}
-                  alt={currentQuestion.work}
-                  className={styles.workImage}
-                  onError={(e) => {
+              <img
+                src={getImageUrl(currentQuestion.image || '/images/sculptures/place_holder_img.png')}
+                alt={currentQuestion.work}
+                className={styles.workImage}
+                onError={(e) => {
+                  const placeholder = getImageUrl('/images/sculptures/place_holder_img.png')
+                  if (e.target.src !== placeholder) {
+                    e.target.onerror = null
+                    e.target.src = placeholder
+                  } else {
                     e.target.style.display = 'none'
-                  }}
-                />
-              )}
+                  }
+                }}
+              />
+              <h2 className={styles.work}>{currentQuestion.work}</h2>
             </>
           )}
         </div>
@@ -147,9 +165,9 @@ function QuizScreen({ quizData, quizType, onQuizComplete, soundEnabled }) {
                 className={answerClass}
                 onClick={() => handleAnswerSelect(index)}
               >
-                {answer.image && (
+                {isToolsQuiz && answer.image && (
                   <img
-                    src={answer.image}
+                    src={getImageUrl(answer.image)}
                     alt={answer.text}
                     className={styles.answerImage}
                     onError={(e) => {
@@ -165,10 +183,6 @@ function QuizScreen({ quizData, quizType, onQuizComplete, soundEnabled }) {
 
         {showResult && (() => {
           const selectedAnswerData = selectedAnswer !== null ? currentQuestion.answers[selectedAnswer] : null
-          const placeholderImg = getImageUrl(quizType === 'tools'
-            ? '/images/tools/place_holder_img.png'
-            : '/images/sculptures/place_holder_img.png')
-          const resultImageSrc = getImageUrl(selectedAnswerData?.image) || placeholderImg
           const isCorrect = currentQuestion.answers[selectedAnswer]?.correct
           return (
             <div className={styles.resultSection}>
@@ -191,22 +205,11 @@ function QuizScreen({ quizData, quizType, onQuizComplete, soundEnabled }) {
                     {currentQuestion.answers[selectedAnswer]?.explanation}
                   </p>
 
-                  {currentQuestion.additionalInfo && (
+                  {((isCorrect && currentQuestion.additionalInfo) || (!isCorrect && selectedAnswerData?.additionalInfo)) && (
                     <div className={styles.additionalInfo}>
-                      <p>{currentQuestion.additionalInfo}</p>
+                      <p>{isCorrect ? currentQuestion.additionalInfo : selectedAnswerData?.additionalInfo}</p>
                     </div>
                   )}
-                </div>
-                <div className={styles.resultImageWrap}>
-                  <img
-                    src={resultImageSrc}
-                    alt={selectedAnswerData?.text || ''}
-                    className={styles.resultImage}
-                    onError={(e) => {
-                      e.target.onerror = null
-                      e.target.src = placeholderImg
-                    }}
-                  />
                 </div>
               </div>
 
